@@ -11,9 +11,7 @@
   $( function() {
     $( "#tabs" ).tabs();
   } );
-   $( function() {
-    $( "#accordion" ).accordion();
-  } );
+ 
   </script>
 <body>
  
@@ -24,7 +22,12 @@
     <li><a href="#tabs-3">*</a></li>
   </ul>
   <div id="tabs-1">
+ <script>
  
+   $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 <div id="accordion">
   <h3>Section 1</h3>
   <div>
@@ -90,19 +93,14 @@
     </p>
   </div>
 </div>
- 
- 
-</body>
-    
 
+    <!-- javascript libraries -->
+    <script  src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"   
+    integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4="
+    crossorigin="anonymous"></script>
 
-<!-- javascript libraries -->
-<script  src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"   
-integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4="
-crossorigin="anonymous"></script>
-
-<footer>
-  <p>(c) 2010 The Example company</p>
-</footer>
+    <footer>
+      <p>(c) 2010 The Example company</p>
+    </footer>
 </body>
 </html>
