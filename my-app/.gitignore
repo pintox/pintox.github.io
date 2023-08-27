@@ -10,7 +10,7 @@
 /coverage
 
 # production
-/src
+/my-app
 
 # misc
 .package-lock.json
